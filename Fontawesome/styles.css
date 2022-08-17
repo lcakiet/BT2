@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: rgb(184, 153, 213);
+    text-align: center;
+    height: 200px ;
+    width: 600px;
+    align-items: center;
+    position: relative;
+    margin: 50px auto;
+    line-height: 200px;
+    text-align: center;
+    image-rendering: 50%;
+}
+img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+.shanks{
+    top: 50px;
+    left: 150px;
+}
+.zoro{
+    top: 50px;
+    left: 300px;
+
+}

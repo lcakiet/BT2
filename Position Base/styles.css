@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.box{
+    text-align: center;
+    position: fixed;
+    
+    color: aliceblue;
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.Top-Left{
+    top: 0px; 
+    left: 0px;
+    background-color: rgb(40, 133, 48);
+}
+.Top-Center{
+    background-color: rgb(40, 133, 48);
+    top: 0px;
+    left: 50%;
+    margin-left: -100px;
+}
+.Top-Right{
+    background-color: rgb(40, 133, 48);
+    top: 0px;
+    right: 0px;
+}
+.Center-Left{
+    top: 50%; 
+    left: 0px;
+    background-color: rgb(40, 133, 48);
+    margin-top: -50px;
+
+}
+
+.Center-Right{
+    top: 50%; 
+    right: 0px;
+    background-color: rgb(40, 133, 48);
+    margin-top: -50px;
+    
+}
+.Bottom-Left{
+    bottom: 0px; 
+    left: 0px;
+    background-color: rgb(40, 133, 48);
+}
+.Bottom-Center{
+    background-color: rgb(40, 133, 48);
+    bottom: 0px;
+    left: 50%;
+    margin-left: -100px;
+
+}
+.Bottom-Right{
+    bottom: 0px; 
+    right: 0px;
+    background-color: rgb(40, 133, 48);
+}
+.Center-Center{
+    background-color: rgb(40, 133, 48);
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+}
+.box-mini{
+    color: black;
+    background-color: red;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+
+}
+.CTL{
+    top: -50px;
+    left: -100px;
+}
+.CTR{
+    top: -50px;
+    right: -100px;
+}
+.CBL{
+    bottom: -50px;
+    left: -100px;
+}
+.CBR{
+    bottom: -50px;
+    right: -100px;
+}
